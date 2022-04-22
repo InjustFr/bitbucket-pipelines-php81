@@ -1,5 +1,7 @@
 FROM ubuntu:20.04
 
+CMD ["bash"]
+
 MAINTAINER Louis Duprat <louisdupratpro@gmail.com>
 
 # Set environment variables
@@ -50,3 +52,5 @@ RUN echo "date.timezone=Europe/Paris" > /etc/php/8.1/cli/conf.d/date_timezone.in
 
 # Goto temporary directory.
 WORKDIR /tmp
+
+RUN bash
