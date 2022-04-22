@@ -1,6 +1,6 @@
 FROM ubuntu:20.04
 
-MAINTAINER Louis Duprat louisdupratpro@gmail.com>
+MAINTAINER Louis Duprat <louisdupratpro@gmail.com>
 
 # Set environment variables
 ENV HOME /root
